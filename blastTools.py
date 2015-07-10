@@ -25,7 +25,7 @@ from Bio.Blast import NCBIWWW, NCBIXML
 from xml.etree import ElementTree as ET
 
 # Set email address here for NCBI/Entrez server
-Entrez.email = "harms@uoregon.edu"
+Entrez.email = "PUT_YOUR_EMAIL_ADDRESS_HERE"
 
 # Global unique name counter
 homolog_counter = 0
