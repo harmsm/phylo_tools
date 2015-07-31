@@ -1,0 +1,5 @@
+Reconstruct ancestral states using the phyml-ss EX/EHO model using paml.  This
+is done by running paml for each model (EX/E, EX/H ... etc.) and then mixing 
+the posterior probabilities at the end.  See run-me.sh for the actual pipeline.
+
+Note: needs newick utils (http://cegg.unige.ch/newick_utils) to run.
